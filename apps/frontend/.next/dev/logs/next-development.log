@@ -1,0 +1,183 @@
+[00:00:01.156] Server  LOG      ✓ Ready in 894ms
+[00:00:04.216] Server  LOG      ○ Compiling /cadastro ...
+[00:00:07.788] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.493] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/illustration.png" "received" null
+[00:01:04.222] Server  LOG      ✓ Compiled in 65ms
+[00:01:05.975] Server  LOG      ✓ Compiled in 113ms
+[00:01:11.317] Server  LOG      ✓ Compiled in 107ms
+[00:01:14.949] Server  LOG      ✓ Compiled in 207ms
+[00:01:17.586] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/illustration.png" "received" null
+[00:01:57.555] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:01:57.819] Server  LOG      ✓ Compiled in 202ms
+[00:02:04.162] Server  LOG      ✓ Compiled in 65ms
+[00:02:35.095] Browser ERROR   ./app/(pages)/cadastro/page.tsx:76:54
+Parsing ecmascript source code failed
+  74 |             <img
+  75 |               src="/fredly.png
+> 76 |               alt="Ilustração de gestão de eventos"
+     |                                                      ^
+  77 |               width={600}
+  78 |               height={600}
+  79 |               className="w-full h-auto"
+
+Unterminated string constant
+[00:02:42.061] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/illustration.png" "received" null
+[00:02:45.852] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/illustration.png" "received" null
+[00:03:38.790] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/illustration.png" "received" null
+[00:03:59.711] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/.png" "received" null
+[00:04:04.469] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/freddly.png" "received" null
+[00:06:33.026] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:06:35.727] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:06:44.354] Server  LOG      ✓ Compiled in 45ms
+[00:06:53.066] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true he he true he
+[00:07:01.044] Server  LOG      ✓ Compiled in 122ms
+[00:07:06.273] Server  LOG      ✓ Compiled in 45ms
+[00:08:23.846] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:26.955] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:28.840] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:29.829] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:30.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:55.246] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:58.462] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:14.160] Server  LOG      ✓ Compiled in 54ms
+[00:09:18.010] Server  LOG      ✓ Compiled in 82ms
+[00:09:21.247] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:23.057] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:48.135] Server  LOG      ✓ Compiled in 274ms
+[00:09:48.269] Browser ERROR   uncaughtError: ReferenceError: Avatar is not defined
+[00:09:53.329] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:09:53.347] Server  LOG      ✓ Compiled in 280ms
+[00:09:53.879] Server  ERROR    ⨯ ReferenceError: AvatarFallback is not defined
+[00:09:53.913] Browser ERROR   uncaughtError: ReferenceError: AvatarFallback is not defined
+[00:09:54.734] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:55.468] Browser ERROR   uncaughtError: ReferenceError: AvatarFallback is not defined
+[00:09:55.792] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:09:55.807] Server  LOG      ✓ Compiled in 258ms
+[00:09:57.396] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:57.882] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR">
+                          <body
+                            className="font-sans antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:10:10.397] Server  LOG      ✓ Compiled in 55ms
+[00:10:14.667] Server  LOG      ✓ Compiled in 61ms
+[00:10:26.818] Server  LOG      ✓ Compiled in 121ms
+[00:10:40.005] Server  LOG      ✓ Compiled in 223ms
+[00:10:47.492] Server  LOG      ✓ Compiled in 112ms
+[00:10:55.184] Server  LOG      ✓ Compiled in 42ms
+[00:10:58.426] Server  LOG      ✓ Compiled in 46ms
+[00:11:06.648] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:06.648] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/perfil" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR">
+                          <body
+                            className="font-sans antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:11:08.410] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:10.104] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:11.546] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:12.982] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:13.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:52.534] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:38.260] Server  LOG        Reload env: .env
+[00:57:51.665] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:51.936] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR">
+                          <body
+                            className="font-sans antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:58:00.117] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:01.495] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
